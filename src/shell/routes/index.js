@@ -4,7 +4,7 @@ const router = [
   {
     name: "Dashboard",
     path: "/",
-          component: () => <Dashboard />,
+    component: () => <Dashboard />,
   },
 ];
 
