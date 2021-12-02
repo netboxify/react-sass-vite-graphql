@@ -15,24 +15,13 @@
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "npm run prettify",
-      "git add"
-    ]
-  },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettify": "prettier src/*.js --write"
+    "prettify": "prettier src/* --write"
   },
   "eslintConfig": {
     "extends": [
