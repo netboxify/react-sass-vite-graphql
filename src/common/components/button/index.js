@@ -1,7 +1,7 @@
-import './button.css';
+import "./button.css";
 
 const Button = ({ type = "primary", title, ...props }) => {
-  /* 
+  /*
    * Types:
    * - primary
    * - dark
@@ -14,6 +14,6 @@ const Button = ({ type = "primary", title, ...props }) => {
       {title}
     </button>
   );
-}
+};
 
 export default Button;

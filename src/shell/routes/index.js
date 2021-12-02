@@ -1,10 +1,10 @@
-import Dashboard from 'pages/dashboard';
+import Dashboard from "pages/dashboard";
 
 const router = [
   {
     name: "Dashboard",
     path: "/",
-      component: () => <Dashboard />
+      component: () => <Dashboard />,
   },
 ];
 
