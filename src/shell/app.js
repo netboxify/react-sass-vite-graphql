@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ApolloProvider } from "@apollo/client";
 
 import Login from "pages/login";
@@ -10,10 +10,10 @@ const App = () => {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <Switch>
+        <Routes>
           <Route path="/login" exact component={Login} />
           <Route component={DashboardLayout} />
-        </Switch>
+        </Routes>
       </Router>
     </ApolloProvider>
   );
