@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/header";
 
@@ -10,9 +10,18 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Header />
-      {routes.map((route) => {
-        return <Route path={route.path} component={route.component} exact />;
-      })}
+      <Routes>
+        {routes.map((route) => {
+          return (
+            <Route
+              key={route.path}
+              path={route.path}
+              element={<route.component />}
+              exact
+            />
+          );
+        })}
+      </Routes>
     </div>
   );
 };
