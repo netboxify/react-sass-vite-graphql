@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import React from "react";
 
 import Button from "common/components/button";
 import Input from "common/components/input";

@@ -1,3 +1,5 @@
+import React from "react";
+
 import Dashboard from "pages/dashboard";
 
 const router = [
