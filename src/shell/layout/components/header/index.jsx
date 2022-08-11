@@ -3,15 +3,7 @@ import React from "react";
 import "./header.scss";
 
 const Header = () => {
-  return (
-    <nav>
-      <div className="left">
-        <p>
-          $55.555 <span>This month</span>
-        </p>
-      </div>
-    </nav>
-  );
+  return <nav></nav>;
 };
 
 export default Header;

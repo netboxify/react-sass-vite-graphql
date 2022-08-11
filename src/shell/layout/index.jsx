@@ -9,7 +9,7 @@ import routes from "shell/routes";
 import "./layout.css";
 import Sidebar from "shell/layout/components/sidebar";
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
     <div className="layout">
       <Header />
