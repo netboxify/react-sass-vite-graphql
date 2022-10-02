@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/client": "^3.6.10",
+    "@apollo/client": "^3.7.0",
     "@headlessui/react": "^1.7.3",
     "dayjs": "^1.11.5",
     "graphql": "^16.6.0",
