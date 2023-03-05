@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.9",
-    "@headlessui/react": "^1.7.12",
+    "@headlessui/react": "^1.7.13",
     "dayjs": "^1.11.7",
     "graphql": "^16.6.0",
     "prop-types": "^15.8.1",
