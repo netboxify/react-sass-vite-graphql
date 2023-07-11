@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/client": "^3.7.16",
+    "@apollo/client": "^3.7.17",
     "@headlessui/react": "^1.7.15",
     "dayjs": "^1.11.9",
     "graphql": "^16.7.1",
@@ -45,6 +45,6 @@
     "prettier": "^3.0.0",
     "sass": "^1.63.6",
     "source-map-explorer": "^2.5.3",
-    "vite": "^4.3.9"
+    "vite": "^4.4.2"
   }
 }

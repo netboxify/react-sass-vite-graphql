@@ -1,5 +1,5 @@
 import { Alias, defineConfig } from 'vite'
-import reactRefresh from '@vitejs/plugin-react-refresh'
+import react from '@vitejs/plugin-react'
 import path from 'path';
 
 import * as jsconfig from './jsconfig.paths.json';
@@ -22,5 +22,5 @@ export default defineConfig({
   resolve: {
     alias: readAliasFromJsConfig()
   },
-  plugins: [reactRefresh()]
+  plugins: [react()]
 })
