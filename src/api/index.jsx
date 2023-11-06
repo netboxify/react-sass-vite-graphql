@@ -5,7 +5,6 @@ import { AUTH_TOKEN } from "common/constants";
 
 const httpLink = createHttpLink({
   uri: "http://localhost:5000/graphql",
-  fetchPolity: "network-only",
 });
 
 const authLink = setContext((_, { headers }) => {
