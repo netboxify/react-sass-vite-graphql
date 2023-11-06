@@ -4,8 +4,10 @@
     "paths": {
       "common/*": ["src/common/*"],
       "pages/*": ["src/pages/*"],
-      "api/*": ["src/api/index.jsx"],
-      "shell/*": ["src/shell/*"]
+      "api/*": ["src/api/*"],
+      "shell/*": ["src/shell/*"],
+      "assets/*": ["src/common/assets/*"],
+      "state/*": ["src/recoil/*"]
     }
   },
 
