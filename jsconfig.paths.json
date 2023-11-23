@@ -7,7 +7,8 @@
       "api/*": ["src/api/*"],
       "shell/*": ["src/shell/*"],
       "assets/*": ["src/common/assets/*"],
-      "state/*": ["src/recoil/*"]
+      "state/*": ["src/recoil/*"],
+      "components/*": ["src/common/components/*"]
     }
   },
 
